@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Were.webp);
+    color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.register{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: brown;
+    width: 30%;
+    height: 60vh;
+    border-radius: 10%;
+    border-left: 5px solid;
+    border-right: 5px solid;
+}
+
+.register h1{
+    font-feature-settings: "blwf";
+    font-size: x-large;
+    font-weight: 100;
+    padding: 28px;
+}
+
+.register input{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.register a{
+    color: #00ff4c;
+    margin-bottom: 10px;
+}
+
+.register p{
+    margin-bottom: 10px;
+}
